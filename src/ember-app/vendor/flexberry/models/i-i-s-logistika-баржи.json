@@ -1,0 +1,173 @@
+﻿{
+  "name": "IISLogistikaБаржи",
+  "modelName": "i-i-s-logistika-баржи",
+  "className": "Баржи",
+  "nameSpace": "IIS.Logistika",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "высотаБаржи",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "грузопод",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "длина",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерБаржи",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "объемБаржи",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "ширина",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "тЧРасписание",
+      "relatedTo": "i-i-s-logistika-т-ч-расписание",
+      "inverse": "баржи"
+    }
+  ],
+  "projections": [
+    {
+      "name": "БаржиE",
+      "modelName": "i-i-s-logistika-баржи",
+      "attrs": [
+        {
+          "name": "номерБаржи",
+          "caption": "Номер баржи",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "грузопод",
+          "caption": "Грузоподъемность",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "длина",
+          "caption": "Длина",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "ширина",
+          "caption": "Ширина",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "высотаБаржи",
+          "caption": "Высота баржи",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "объемБаржи",
+          "caption": "Объем баржи",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТЧРасписаниеE",
+          "caption": "Расписание барж",
+          "name": "тЧРасписание",
+          "relatedTo": "i-i-s-logistika-т-ч-расписание",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "БаржиL",
+      "modelName": "i-i-s-logistika-баржи",
+      "attrs": [
+        {
+          "name": "номерБаржи",
+          "caption": "Номер баржи",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "грузопод",
+          "caption": "Грузоподъемность",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "длина",
+          "caption": "Длина",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "ширина",
+          "caption": "Ширина",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "высотаБаржи",
+          "caption": "Высота баржи",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "объемБаржи",
+          "caption": "Объем баржи",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

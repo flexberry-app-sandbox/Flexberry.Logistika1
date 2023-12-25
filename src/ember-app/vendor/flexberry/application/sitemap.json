@@ -1,0 +1,85 @@
+﻿{
+  "applicationCaption": "Logistika",
+  "applicationTitle": "Logistika",
+  "items": [
+    {
+      "link": null,
+      "menuName": "logistika",
+      "caption": "Logistika",
+      "title": "Logistika",
+      "children": [
+        {
+          "link": "i-i-s-logistika-загруз-контейн-l",
+          "menuName": null,
+          "caption": "Загруз контейн",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-докум-постав-l",
+          "menuName": null,
+          "caption": "Докум постав",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-докум-результ-п-l",
+          "menuName": null,
+          "caption": "Докум результ П",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-баржи-l",
+          "menuName": null,
+          "caption": "Баржи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-загрузка-баржи-l",
+          "menuName": null,
+          "caption": "Загрузка баржи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-контейнеры-l",
+          "menuName": null,
+          "caption": "Контейнеры",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-груз-l",
+          "menuName": null,
+          "caption": "Груз",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

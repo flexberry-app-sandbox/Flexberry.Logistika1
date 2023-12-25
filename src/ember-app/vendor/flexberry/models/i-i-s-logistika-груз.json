@@ -1,0 +1,180 @@
+﻿{
+  "name": "IISLogistikaГруз",
+  "modelName": "i-i-s-logistika-груз",
+  "className": "Груз",
+  "nameSpace": "IIS.Logistika",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "высота",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "длина",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "категорияГр",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодГруза",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "масса",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "объем",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "ширина",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ГрузE",
+      "modelName": "i-i-s-logistika-груз",
+      "attrs": [
+        {
+          "name": "категорияГр",
+          "caption": "Категория груза",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "ширина",
+          "caption": "Ширина",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "высота",
+          "caption": "Высота",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "длина",
+          "caption": "Длина",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "масса",
+          "caption": "Масса",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "объем",
+          "caption": "Объем",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "кодГруза",
+          "caption": "Код груза",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ГрузL",
+      "modelName": "i-i-s-logistika-груз",
+      "attrs": [
+        {
+          "name": "категорияГр",
+          "caption": "Категория груза",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "ширина",
+          "caption": "Ширина",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "высота",
+          "caption": "Высота",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "длина",
+          "caption": "Длина",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "масса",
+          "caption": "Масса",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "объем",
+          "caption": "Объем",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "кодГруза",
+          "caption": "Код груза",
+          "hidden": false,
+          "index": 6
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

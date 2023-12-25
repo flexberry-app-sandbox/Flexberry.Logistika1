@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-logistika-докум-результ-п-e",
+  "editForm": "i-i-s-logistika-докум-результ-п-e",
+  "external": false,
+  "caption": "Докум результ П",
+  "name": "IISLogistikaДокумРезультПL",
+  "className": "ДокумРезультПL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-logistika-докум-результ-п",
+      "modelProjection": "ДокумРезультПL"
+    }
+  ]
+}
