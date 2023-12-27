@@ -67,22 +67,22 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ГрузE', 'i-i-s-logistika-груз', {
-    категорияГр: attr('Категория груза', { index: 0 }),
-    ширина: attr('Ширина', { index: 1 }),
-    высота: attr('Высота', { index: 2 }),
-    длина: attr('Длина', { index: 3 }),
-    масса: attr('Масса', { index: 4 }),
-    объем: attr('Объем', { index: 5 }),
-    кодГруза: attr('Код груза', { index: 6 })
+    кодГруза: attr('Код груза', { index: 0 }),
+    категорияГр: attr('Категория груза', { index: 1 }),
+    ширина: attr('Ширина', { index: 2 }),
+    высота: attr('Высота', { index: 3 }),
+    длина: attr('Длина', { index: 4 }),
+    масса: attr('Масса', { index: 5 }),
+    объем: attr('Объем', { index: 6 })
   });
 
   modelClass.defineProjection('ГрузL', 'i-i-s-logistika-груз', {
-    категорияГр: attr('Категория груза', { index: 0 }),
-    ширина: attr('Ширина', { index: 1 }),
-    высота: attr('Высота', { index: 2 }),
-    длина: attr('Длина', { index: 3 }),
-    масса: attr('Масса', { index: 4 }),
-    объем: attr('Объем', { index: 5 }),
-    кодГруза: attr('Код груза', { index: 6 })
+    кодГруза: attr('Код груза', { index: 0 }),
+    категорияГр: attr('Категория груза', { index: 1 }),
+    ширина: attr('Ширина', { index: 2 }),
+    высота: attr('Высота', { index: 3 }),
+    длина: attr('Длина', { index: 4 }),
+    масса: attr('Масса', { index: 5 }),
+    объем: attr('Объем', { index: 6 })
   });
 };
