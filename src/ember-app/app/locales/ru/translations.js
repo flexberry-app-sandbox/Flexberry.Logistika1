@@ -61,7 +61,7 @@ $.extend(true, translations, {
     'i-i-s-logistika-т-ч-своб-мест': IISLogistikaТЧСвобМестModel
   },
 
-  'application-name': 'Logistika',
+  'application-name': 'Логистика',
 
   forms: {
     loading: {
@@ -100,7 +100,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Logistika',
+        'application-name': 'Логистика',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -111,8 +111,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Logistika',
-          title: 'Logistika'
+          caption: 'Логистика',
+          title: 'Логистика'
         },
         'application-version': {
           caption: 'Версия аддона {{version}}',
@@ -123,6 +123,58 @@ $.extend(true, translations, {
         index: {
           caption: 'Главная',
           title: ''
+        },
+        документация: {
+          caption: 'Документация',
+          title: 'Документация',
+          'i-i-s-logistika-докум-постав-l': {
+            caption: 'Документ поставки',
+            title: 'Документ поставки'
+          },
+          'i-i-s-logistika-загруз-контейн-l': {
+            caption: 'Загрузка контейнеров',
+            title: 'Загрузка контейнеров'
+          },
+          'i-i-s-logistika-загрузка-баржи-l': {
+            caption: 'Загрузка баржи',
+            title: 'Загрузка баржи'
+          },
+          'i-i-s-logistika-докум-результ-п-l': {
+            caption: 'Документ результатов поставки',
+            title: 'Документ результатов поставки'
+          }
+        },
+        'данные-об-организации-и-компонентах-организации': {
+          caption: 'Данные об организации и компонентах организации',
+          title: 'Данные об организации и компонентах организации',
+          'i-i-s-logistika-организация-l': {
+            caption: 'Организация',
+            title: 'Организация'
+          },
+          'i-i-s-logistika-сотрудники-l': {
+            caption: 'Сотрудники',
+            title: 'Сотрудники'
+          },
+          'i-i-s-logistika-баржи-l': {
+            caption: 'Баржи',
+            title: 'Баржи'
+          },
+          'i-i-s-logistika-контейнеры-l': {
+            caption: 'Контейнеры',
+            title: 'Контейнеры'
+          },
+          'i-i-s-logistika-клиенты-l': {
+            caption: 'Клиенты',
+            title: 'Клиенты'
+          }
+        },
+        номенклатура: {
+          caption: 'Номенклатура',
+          title: 'Номенклатура',
+          'i-i-s-logistika-груз-l': {
+            caption: 'Груз',
+            title: 'Груз'
+          }
         },
         logistika: {
           caption: 'Logistika',

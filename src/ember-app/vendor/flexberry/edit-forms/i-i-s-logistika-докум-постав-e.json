@@ -34,7 +34,7 @@
     }
   ],
   "external": false,
-  "caption": "Докум постав",
+  "caption": "Документ поставки",
   "name": "IISLogistikaДокумПоставE",
   "className": "ДокумПоставE",
   "attrs": [],

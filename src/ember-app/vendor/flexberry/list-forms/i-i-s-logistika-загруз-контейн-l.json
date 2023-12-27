@@ -2,7 +2,7 @@
   "newForm": "i-i-s-logistika-загруз-контейн-e",
   "editForm": "i-i-s-logistika-загруз-контейн-e",
   "external": false,
-  "caption": "Загруз контейн",
+  "caption": "Загрузка контейнера",
   "name": "IISLogistikaЗагрузКонтейнL",
   "className": "ЗагрузКонтейнL",
   "attrs": [],

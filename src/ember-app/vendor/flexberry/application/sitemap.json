@@ -1,81 +1,97 @@
 ﻿{
-  "applicationCaption": "Logistika",
-  "applicationTitle": "Logistika",
+  "applicationCaption": "Логистика",
+  "applicationTitle": "Логистика",
   "items": [
     {
       "link": null,
-      "menuName": "logistika",
-      "caption": "Logistika",
-      "title": "Logistika",
+      "menuName": "документация",
+      "caption": "Документация",
+      "title": "Документация",
       "children": [
-        {
-          "link": "i-i-s-logistika-загруз-контейн-l",
-          "menuName": null,
-          "caption": "Загруз контейн",
-          "title": "",
-          "children": null
-        },
         {
           "link": "i-i-s-logistika-докум-постав-l",
           "menuName": null,
-          "caption": "Докум постав",
-          "title": "",
+          "caption": "Документ поставки",
+          "title": "Документ поставки",
           "children": null
         },
         {
-          "link": "i-i-s-logistika-докум-результ-п-l",
+          "link": "i-i-s-logistika-загруз-контейн-l",
           "menuName": null,
-          "caption": "Докум результ П",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-logistika-организация-l",
-          "menuName": null,
-          "caption": "Организация",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-logistika-клиенты-l",
-          "menuName": null,
-          "caption": "Клиенты",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-logistika-сотрудники-l",
-          "menuName": null,
-          "caption": "Сотрудники",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-logistika-баржи-l",
-          "menuName": null,
-          "caption": "Баржи",
-          "title": "",
+          "caption": "Загрузка контейнеров",
+          "title": "Загрузка контейнеров",
           "children": null
         },
         {
           "link": "i-i-s-logistika-загрузка-баржи-l",
           "menuName": null,
           "caption": "Загрузка баржи",
-          "title": "",
+          "title": "Загрузка баржи",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-докум-результ-п-l",
+          "menuName": null,
+          "caption": "Документ результатов поставки",
+          "title": "Документ результатов поставки",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "данные-об-организации-и-компонентах-организации",
+      "caption": "Данные об организации и компонентах организации",
+      "title": "Данные об организации и компонентах организации",
+      "children": [
+        {
+          "link": "i-i-s-logistika-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "Организация",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": null
+        },
+        {
+          "link": "i-i-s-logistika-баржи-l",
+          "menuName": null,
+          "caption": "Баржи",
+          "title": "Баржи",
           "children": null
         },
         {
           "link": "i-i-s-logistika-контейнеры-l",
           "menuName": null,
           "caption": "Контейнеры",
-          "title": "",
+          "title": "Контейнеры",
           "children": null
         },
+        {
+          "link": "i-i-s-logistika-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "Клиенты",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "номенклатура",
+      "caption": "Номенклатура",
+      "title": "Номенклатура",
+      "children": [
         {
           "link": "i-i-s-logistika-груз-l",
           "menuName": null,
           "caption": "Груз",
-          "title": "",
+          "title": "Груз",
           "children": null
         }
       ]
